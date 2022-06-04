@@ -191,7 +191,7 @@ class API(object):
     @apiSuccess {Number} id
         The comment’s id (assigned by the server).
     @apiSuccess {Number} parent
-        Id of the comment this comment is a reply to. `null` if this is a top-level-comment.
+        Id of the comment this comment is a reply to. `null` if this is a top-level-comment. None.
     @apiSuccess {Number=1,2,4} mode
         The comment’s mode:
         value | explanation
